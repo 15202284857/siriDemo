@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A68C04B722B9F56F00AE0BA6 /* soldOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = A68C04B622B9F56F00AE0BA6 /* soldOutView.m */; };
+		A68C04B922B9F57D00AE0BA6 /* soldOutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A68C04B822B9F57D00AE0BA6 /* soldOutView.xib */; };
+		A69FD51222B9C8A400729359 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A6DDB3B922B9BC8800B3BC58 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (codegen, ); }; };
+		A69FD51322B9C8A400729359 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A6DDB3B922B9BC8800B3BC58 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (codegen, ); }; };
+		A69FD51622B9E3AA00729359 /* payOrderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD51522B9E3AA00729359 /* payOrderView.m */; };
+		A69FD51922B9E3C400729359 /* unLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD51822B9E3C400729359 /* unLoginView.m */; };
+		A69FD51B22B9E3CF00729359 /* payOrderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69FD51A22B9E3CF00729359 /* payOrderView.xib */; };
+		A69FD51D22B9E41100729359 /* unLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69FD51C22B9E41100729359 /* unLoginView.xib */; };
+		A69FD52022B9E79F00729359 /* serverErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD51F22B9E79F00729359 /* serverErrorView.m */; };
+		A69FD52222B9E7AC00729359 /* serverErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69FD52122B9E7AC00729359 /* serverErrorView.xib */; };
+		A69FD52522B9E7DE00729359 /* successView.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FD52422B9E7DE00729359 /* successView.m */; };
+		A69FD52722B9E7EA00729359 /* successView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69FD52622B9E7EA00729359 /* successView.xib */; };
+		A6DDB38922B9BBCD00B3BC58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DDB38822B9BBCD00B3BC58 /* AppDelegate.m */; };
+		A6DDB38C22B9BBCD00B3BC58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DDB38B22B9BBCD00B3BC58 /* ViewController.m */; };
+		A6DDB38F22B9BBCD00B3BC58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DDB38D22B9BBCD00B3BC58 /* Main.storyboard */; };
+		A6DDB39122B9BBCF00B3BC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DDB39022B9BBCF00B3BC58 /* Assets.xcassets */; };
+		A6DDB39422B9BBCF00B3BC58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DDB39222B9BBCF00B3BC58 /* LaunchScreen.storyboard */; };
+		A6DDB39722B9BBCF00B3BC58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DDB39622B9BBCF00B3BC58 /* main.m */; };
+		A6DDB3BA22B9BC8800B3BC58 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A6DDB3B922B9BC8800B3BC58 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (codegen, ); }; };
+		A6DDB3C322B9C07B00B3BC58 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DDB3C222B9C07B00B3BC58 /* IntentHandler.m */; };
+		A6DDB3CC22B9C07B00B3BC58 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DDB3CB22B9C07B00B3BC58 /* IntentsUI.framework */; };
+		A6DDB3D022B9C07B00B3BC58 /* IntentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DDB3CF22B9C07B00B3BC58 /* IntentViewController.m */; };
+		A6DDB3D322B9C07B00B3BC58 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DDB3D122B9C07B00B3BC58 /* MainInterface.storyboard */; };
+		A6DDB3D722B9C07B00B3BC58 /* payOrderUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A6DDB3C922B9C07B00B3BC58 /* payOrderUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A6DDB3DA22B9C07B00B3BC58 /* payOrder.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A6DDB3BF22B9C07B00B3BC58 /* payOrder.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A6DDB3E522B9C2EC00B3BC58 /* PayOrderIntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DDB3E422B9C2EC00B3BC58 /* PayOrderIntentHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6DDB3D522B9C07B00B3BC58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6DDB37C22B9BBCD00B3BC58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6DDB3C822B9C07B00B3BC58;
+			remoteInfo = payOrderUI;
+		};
+		A6DDB3D822B9C07B00B3BC58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6DDB37C22B9BBCD00B3BC58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6DDB3BE22B9C07B00B3BC58;
+			remoteInfo = payOrder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6DDB3E122B9C07B00B3BC58 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A6DDB3DA22B9C07B00B3BC58 /* payOrder.appex in Embed App Extensions */,
+				A6DDB3D722B9C07B00B3BC58 /* payOrderUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A68C04B522B9F56F00AE0BA6 /* soldOutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = soldOutView.h; sourceTree = "<group>"; };
+		A68C04B622B9F56F00AE0BA6 /* soldOutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = soldOutView.m; sourceTree = "<group>"; };
+		A68C04B822B9F57D00AE0BA6 /* soldOutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = soldOutView.xib; sourceTree = "<group>"; };
+		A69FD51422B9E3AA00729359 /* payOrderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = payOrderView.h; sourceTree = "<group>"; };
+		A69FD51522B9E3AA00729359 /* payOrderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = payOrderView.m; sourceTree = "<group>"; };
+		A69FD51722B9E3C400729359 /* unLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unLoginView.h; sourceTree = "<group>"; };
+		A69FD51822B9E3C400729359 /* unLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = unLoginView.m; sourceTree = "<group>"; };
+		A69FD51A22B9E3CF00729359 /* payOrderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = payOrderView.xib; sourceTree = "<group>"; };
+		A69FD51C22B9E41100729359 /* unLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = unLoginView.xib; sourceTree = "<group>"; };
+		A69FD51E22B9E79F00729359 /* serverErrorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = serverErrorView.h; sourceTree = "<group>"; };
+		A69FD51F22B9E79F00729359 /* serverErrorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = serverErrorView.m; sourceTree = "<group>"; };
+		A69FD52122B9E7AC00729359 /* serverErrorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = serverErrorView.xib; sourceTree = "<group>"; };
+		A69FD52322B9E7DE00729359 /* successView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = successView.h; sourceTree = "<group>"; };
+		A69FD52422B9E7DE00729359 /* successView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = successView.m; sourceTree = "<group>"; };
+		A69FD52622B9E7EA00729359 /* successView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = successView.xib; sourceTree = "<group>"; };
+		A6DDB38422B9BBCD00B3BC58 /* siriDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = siriDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DDB38722B9BBCD00B3BC58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6DDB38822B9BBCD00B3BC58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6DDB38A22B9BBCD00B3BC58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6DDB38B22B9BBCD00B3BC58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6DDB38E22B9BBCD00B3BC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6DDB39022B9BBCF00B3BC58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6DDB39322B9BBCF00B3BC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6DDB39522B9BBCF00B3BC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DDB39622B9BBCF00B3BC58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6DDB3B922B9BC8800B3BC58 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		A6DDB3BF22B9C07B00B3BC58 /* payOrder.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = payOrder.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DDB3C122B9C07B00B3BC58 /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
+		A6DDB3C222B9C07B00B3BC58 /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
+		A6DDB3C422B9C07B00B3BC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DDB3C922B9C07B00B3BC58 /* payOrderUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = payOrderUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DDB3CB22B9C07B00B3BC58 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		A6DDB3CE22B9C07B00B3BC58 /* IntentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentViewController.h; sourceTree = "<group>"; };
+		A6DDB3CF22B9C07B00B3BC58 /* IntentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentViewController.m; sourceTree = "<group>"; };
+		A6DDB3D222B9C07B00B3BC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A6DDB3D422B9C07B00B3BC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6DDB3E222B9C0DF00B3BC58 /* siriDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = siriDemo.entitlements; sourceTree = "<group>"; };
+		A6DDB3E322B9C2EC00B3BC58 /* PayOrderIntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayOrderIntentHandler.h; sourceTree = "<group>"; };
+		A6DDB3E422B9C2EC00B3BC58 /* PayOrderIntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayOrderIntentHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DDB38122B9BBCD00B3BC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DDB3BC22B9C07B00B3BC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DDB3C622B9C07B00B3BC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DDB3CC22B9C07B00B3BC58 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6DDB37B22B9BBCD00B3BC58 = {
+			isa = PBXGroup;
+			children = (
+				A6DDB3B922B9BC8800B3BC58 /* Intents.intentdefinition */,
+				A6DDB38622B9BBCD00B3BC58 /* siriDemo */,
+				A6DDB3C022B9C07B00B3BC58 /* payOrder */,
+				A6DDB3CD22B9C07B00B3BC58 /* payOrderUI */,
+				A6DDB3CA22B9C07B00B3BC58 /* Frameworks */,
+				A6DDB38522B9BBCD00B3BC58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6DDB38522B9BBCD00B3BC58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DDB38422B9BBCD00B3BC58 /* siriDemo.app */,
+				A6DDB3BF22B9C07B00B3BC58 /* payOrder.appex */,
+				A6DDB3C922B9C07B00B3BC58 /* payOrderUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DDB38622B9BBCD00B3BC58 /* siriDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A6DDB3E222B9C0DF00B3BC58 /* siriDemo.entitlements */,
+				A6DDB38722B9BBCD00B3BC58 /* AppDelegate.h */,
+				A6DDB38822B9BBCD00B3BC58 /* AppDelegate.m */,
+				A6DDB38A22B9BBCD00B3BC58 /* ViewController.h */,
+				A6DDB38B22B9BBCD00B3BC58 /* ViewController.m */,
+				A6DDB38D22B9BBCD00B3BC58 /* Main.storyboard */,
+				A6DDB39022B9BBCF00B3BC58 /* Assets.xcassets */,
+				A6DDB39222B9BBCF00B3BC58 /* LaunchScreen.storyboard */,
+				A6DDB39522B9BBCF00B3BC58 /* Info.plist */,
+				A6DDB39622B9BBCF00B3BC58 /* main.m */,
+			);
+			path = siriDemo;
+			sourceTree = "<group>";
+		};
+		A6DDB3C022B9C07B00B3BC58 /* payOrder */ = {
+			isa = PBXGroup;
+			children = (
+				A6DDB3C122B9C07B00B3BC58 /* IntentHandler.h */,
+				A6DDB3C222B9C07B00B3BC58 /* IntentHandler.m */,
+				A6DDB3E322B9C2EC00B3BC58 /* PayOrderIntentHandler.h */,
+				A6DDB3E422B9C2EC00B3BC58 /* PayOrderIntentHandler.m */,
+				A6DDB3C422B9C07B00B3BC58 /* Info.plist */,
+			);
+			path = payOrder;
+			sourceTree = "<group>";
+		};
+		A6DDB3CA22B9C07B00B3BC58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6DDB3CB22B9C07B00B3BC58 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DDB3CD22B9C07B00B3BC58 /* payOrderUI */ = {
+			isa = PBXGroup;
+			children = (
+				A6DDB3CE22B9C07B00B3BC58 /* IntentViewController.h */,
+				A6DDB3CF22B9C07B00B3BC58 /* IntentViewController.m */,
+				A6DDB3D122B9C07B00B3BC58 /* MainInterface.storyboard */,
+				A6DDB3D422B9C07B00B3BC58 /* Info.plist */,
+				A69FD51422B9E3AA00729359 /* payOrderView.h */,
+				A69FD51522B9E3AA00729359 /* payOrderView.m */,
+				A69FD51A22B9E3CF00729359 /* payOrderView.xib */,
+				A69FD51722B9E3C400729359 /* unLoginView.h */,
+				A69FD51822B9E3C400729359 /* unLoginView.m */,
+				A69FD51C22B9E41100729359 /* unLoginView.xib */,
+				A69FD51E22B9E79F00729359 /* serverErrorView.h */,
+				A69FD51F22B9E79F00729359 /* serverErrorView.m */,
+				A69FD52122B9E7AC00729359 /* serverErrorView.xib */,
+				A69FD52322B9E7DE00729359 /* successView.h */,
+				A69FD52422B9E7DE00729359 /* successView.m */,
+				A69FD52622B9E7EA00729359 /* successView.xib */,
+				A68C04B522B9F56F00AE0BA6 /* soldOutView.h */,
+				A68C04B622B9F56F00AE0BA6 /* soldOutView.m */,
+				A68C04B822B9F57D00AE0BA6 /* soldOutView.xib */,
+			);
+			path = payOrderUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DDB38322B9BBCD00B3BC58 /* siriDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DDB3B022B9BBCF00B3BC58 /* Build configuration list for PBXNativeTarget "siriDemo" */;
+			buildPhases = (
+				A6DDB38022B9BBCD00B3BC58 /* Sources */,
+				A6DDB38122B9BBCD00B3BC58 /* Frameworks */,
+				A6DDB38222B9BBCD00B3BC58 /* Resources */,
+				A6DDB3E122B9C07B00B3BC58 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6DDB3D622B9C07B00B3BC58 /* PBXTargetDependency */,
+				A6DDB3D922B9C07B00B3BC58 /* PBXTargetDependency */,
+			);
+			name = siriDemo;
+			productName = siriDemo;
+			productReference = A6DDB38422B9BBCD00B3BC58 /* siriDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6DDB3BE22B9C07B00B3BC58 /* payOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DDB3DE22B9C07B00B3BC58 /* Build configuration list for PBXNativeTarget "payOrder" */;
+			buildPhases = (
+				A6DDB3BB22B9C07B00B3BC58 /* Sources */,
+				A6DDB3BC22B9C07B00B3BC58 /* Frameworks */,
+				A6DDB3BD22B9C07B00B3BC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = payOrder;
+			productName = payOrder;
+			productReference = A6DDB3BF22B9C07B00B3BC58 /* payOrder.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A6DDB3C822B9C07B00B3BC58 /* payOrderUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DDB3DB22B9C07B00B3BC58 /* Build configuration list for PBXNativeTarget "payOrderUI" */;
+			buildPhases = (
+				A6DDB3C522B9C07B00B3BC58 /* Sources */,
+				A6DDB3C622B9C07B00B3BC58 /* Frameworks */,
+				A6DDB3C722B9C07B00B3BC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = payOrderUI;
+			productName = payOrderUI;
+			productReference = A6DDB3C922B9C07B00B3BC58 /* payOrderUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DDB37C22B9BBCD00B3BC58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yeqingyu;
+				TargetAttributes = {
+					A6DDB38322B9BBCD00B3BC58 = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					A6DDB3BE22B9C07B00B3BC58 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					A6DDB3C822B9C07B00B3BC58 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = A6DDB37F22B9BBCD00B3BC58 /* Build configuration list for PBXProject "siriDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6DDB37B22B9BBCD00B3BC58;
+			productRefGroup = A6DDB38522B9BBCD00B3BC58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DDB38322B9BBCD00B3BC58 /* siriDemo */,
+				A6DDB3BE22B9C07B00B3BC58 /* payOrder */,
+				A6DDB3C822B9C07B00B3BC58 /* payOrderUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DDB38222B9BBCD00B3BC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DDB39422B9BBCF00B3BC58 /* LaunchScreen.storyboard in Resources */,
+				A6DDB39122B9BBCF00B3BC58 /* Assets.xcassets in Resources */,
+				A6DDB38F22B9BBCD00B3BC58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DDB3BD22B9C07B00B3BC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DDB3C722B9C07B00B3BC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69FD52222B9E7AC00729359 /* serverErrorView.xib in Resources */,
+				A69FD51B22B9E3CF00729359 /* payOrderView.xib in Resources */,
+				A69FD51D22B9E41100729359 /* unLoginView.xib in Resources */,
+				A6DDB3D322B9C07B00B3BC58 /* MainInterface.storyboard in Resources */,
+				A69FD52722B9E7EA00729359 /* successView.xib in Resources */,
+				A68C04B922B9F57D00AE0BA6 /* soldOutView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DDB38022B9BBCD00B3BC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DDB38C22B9BBCD00B3BC58 /* ViewController.m in Sources */,
+				A6DDB39722B9BBCF00B3BC58 /* main.m in Sources */,
+				A6DDB3BA22B9BC8800B3BC58 /* Intents.intentdefinition in Sources */,
+				A6DDB38922B9BBCD00B3BC58 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DDB3BB22B9C07B00B3BC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69FD51322B9C8A400729359 /* Intents.intentdefinition in Sources */,
+				A6DDB3E522B9C2EC00B3BC58 /* PayOrderIntentHandler.m in Sources */,
+				A6DDB3C322B9C07B00B3BC58 /* IntentHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DDB3C522B9C07B00B3BC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69FD51222B9C8A400729359 /* Intents.intentdefinition in Sources */,
+				A69FD51622B9E3AA00729359 /* payOrderView.m in Sources */,
+				A69FD52522B9E7DE00729359 /* successView.m in Sources */,
+				A68C04B722B9F56F00AE0BA6 /* soldOutView.m in Sources */,
+				A6DDB3D022B9C07B00B3BC58 /* IntentViewController.m in Sources */,
+				A69FD51922B9E3C400729359 /* unLoginView.m in Sources */,
+				A69FD52022B9E79F00729359 /* serverErrorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6DDB3D622B9C07B00B3BC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6DDB3C822B9C07B00B3BC58 /* payOrderUI */;
+			targetProxy = A6DDB3D522B9C07B00B3BC58 /* PBXContainerItemProxy */;
+		};
+		A6DDB3D922B9C07B00B3BC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6DDB3BE22B9C07B00B3BC58 /* payOrder */;
+			targetProxy = A6DDB3D822B9C07B00B3BC58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6DDB38D22B9BBCD00B3BC58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DDB38E22B9BBCD00B3BC58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6DDB39222B9BBCF00B3BC58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DDB39322B9BBCF00B3BC58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A6DDB3D122B9C07B00B3BC58 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DDB3D222B9C07B00B3BC58 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DDB3AE22B9BBCF00B3BC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6DDB3AF22B9BBCF00B3BC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6DDB3B122B9BBCF00B3BC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = siriDemo/siriDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKUL3F37P3;
+				INFOPLIST_FILE = siriDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jixiang.test.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DDB3B222B9BBCF00B3BC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = siriDemo/siriDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKUL3F37P3;
+				INFOPLIST_FILE = siriDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jixiang.test.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6DDB3DC22B9C07B00B3BC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKUL3F37P3;
+				INFOPLIST_FILE = payOrderUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jixiang.test.com.payOrderUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DDB3DD22B9C07B00B3BC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKUL3F37P3;
+				INFOPLIST_FILE = payOrderUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jixiang.test.com.payOrderUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6DDB3DF22B9C07B00B3BC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKUL3F37P3;
+				INFOPLIST_FILE = payOrder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jixiang.test.com.payOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DDB3E022B9C07B00B3BC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKUL3F37P3;
+				INFOPLIST_FILE = payOrder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jixiang.test.com.payOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DDB37F22B9BBCD00B3BC58 /* Build configuration list for PBXProject "siriDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DDB3AE22B9BBCF00B3BC58 /* Debug */,
+				A6DDB3AF22B9BBCF00B3BC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DDB3B022B9BBCF00B3BC58 /* Build configuration list for PBXNativeTarget "siriDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DDB3B122B9BBCF00B3BC58 /* Debug */,
+				A6DDB3B222B9BBCF00B3BC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DDB3DB22B9C07B00B3BC58 /* Build configuration list for PBXNativeTarget "payOrderUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DDB3DC22B9C07B00B3BC58 /* Debug */,
+				A6DDB3DD22B9C07B00B3BC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DDB3DE22B9C07B00B3BC58 /* Build configuration list for PBXNativeTarget "payOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DDB3DF22B9C07B00B3BC58 /* Debug */,
+				A6DDB3E022B9C07B00B3BC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6DDB37C22B9BBCD00B3BC58 /* Project object */;
+}
